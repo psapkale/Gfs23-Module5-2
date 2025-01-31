@@ -1,60 +1,41 @@
 const App = () => {
    return (
       <div>
-         <h1>This is React app using CDN</h1>
+         <h1>Learn web development</h1>
 
          <div>
             <p>
-               React has been designed from the start for gradual adoption, and
-               you can use as little or as much React as you need. Whether you
-               want to get a taste of React, add some interactivity to a simple
-               HTML page, or start a complex React-powered app, the links in
-               this section will help you get started.
+               Welcome to the MDN learning area. This set of articles aims to
+               guide complete beginners to web development with all that they
+               need to start coding websites.
             </p>
          </div>
 
          <br />
          <div>
-            <p>
-               People come to React from different backgrounds and with
-               different learning styles. Whether you prefer a more theoretical
-               or a practical approach, we hope you’ll find this section
-               helpful. <br />
-               - If you prefer to learn by doing, start with our practical
-               tutorial.
-               <br /> - If you prefer to learn concepts step by step, start with
-               our guide to main concepts.
-               <br />
-               <a
-                  href="https://legacy.reactjs.org/docs/getting-started.html"
-                  target="_blank"
-               >
-                  Link
-               </a>
-            </p>
-            <p>
-               Like any unfamiliar technology, React does have a learning curve.
-               With practice and some patience, you will get the hang of it.
-               <br />
-               <a
-                  href="https://legacy.reactjs.org/docs/cdn-links.html"
-                  target="_blank"
-               >
-                  Link
-               </a>
-            </p>
+            The aim of this area of MDN is not to take you from "beginner" to
+            "expert" but to take you from "beginner" to "comfortable." From
+            there, you should be able to start making your way, learning from
+            <a
+               href="https://developer.mozilla.org/en-US/docs/Learn_web_development"
+               target="_blank"
+            >
+               the rest of MDN
+            </a>
+            , and other intermediate to advanced resources that assume a lot of
+            previous knowledge.
          </div>
 
          <br />
          <div>
             <p>
-               The React documentation assumes some familiarity with programming
-               in the JavaScript language. You don’t have to be an expert, but
-               it’s harder to learn both React and JavaScript at the same time.
-               <br />
-               We recommend going through this JavaScript overview to check your
-               knowledge level. It will take you between 30 minutes and an hour
-               but you will feel more confident learning React.
+               If you are a complete beginner, web development can be
+               challenging — we will hold your hand and provide enough detail
+               for you to feel comfortable and learn the topics properly. You
+               should feel at home whether you are a student learning web
+               development (on your own or as part of a class), a teacher
+               looking for class materials, a hobbyist, or someone who just
+               wants to understand more about how web technologies work.
             </p>
          </div>
       </div>

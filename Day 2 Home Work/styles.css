@@ -1,0 +1,14 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+
+#root {
+   width: 58vw;
+}

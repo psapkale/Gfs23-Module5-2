@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.quoteSec{
+    font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  margin: 0;
+  background-color: #f8f9fa;
+  overflow-x: hidden;
+}
+.quoteCard{
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 50px 30px;
+  width: 1100px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 20px 100px;
+}
+.quote-text{
+    font-size: 1.5rem;
+  font-weight: 900;
+  color: #333333;
+  margin-bottom: 15px;
+}
+.author-name{
+    font-size: 1rem;
+  color: #666666;
+  font-weight: normal;
+}
+@media  (max-width:768px){
+  .quoteCard{
+    width: 600px;
+     padding: 15px 20px;
+  }
+  .quote-text {
+    font-size: 1.1rem;
+  }
+
+  .quote-author {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width:480px){
+  .quoteCard{
+    width:300px;
+    padding: 10px 20px;
+  }
+  .quote-text {
+    font-size: 1.1rem;
+  }
+
+  .quote-author {
+    font-size: 0.9rem;
+  }
+}
